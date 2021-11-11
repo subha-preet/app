@@ -11,7 +11,7 @@ router.get('/', (req, res, next) => {
 });
 
 /**
- * GET request to /books/:id
+ * GET request to /books/:id // 
  */
 router.get('/:id', (req, res, next) => {
     res.status(200).json({
