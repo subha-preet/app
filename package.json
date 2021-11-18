@@ -1,24 +1,28 @@
 {
-    "name": "starter",
+    "name": "new-app",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "node application",
+    "main": "server.js",
     "scripts": {
-        "dev": "nodemon ./src/server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/subha-preet/crud-node.git"
+        "url": "git+https://github.com/subha-preet/app.git"
     },
-    "keywords": [],
-    "author": "",
+    "author": "Subhapreet",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Shadid12/starter_node/issues"
+        "url": "https://github.com/subha-preet/app/issues"
     },
-    "homepage": "https://github.com/Shadid12/starter_node#readme",
+    "homepage": "https://github.com/subha-preet/app#readme",
     "dependencies": {
         "express": "^4.17.1",
-        "nodemon": "^2.0.1"
+        "mongodb": "^4.1.4",
+        "mongoose": "^6.0.13"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
     }
 }
